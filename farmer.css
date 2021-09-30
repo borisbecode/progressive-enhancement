@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    
+
+    background: -webkit-linear-gradient(180deg, rgb(207, 232, 255), rgb(241, 235, 222));
+    background: linear-gradient(180deg, rgb(207, 232, 255), rgb(241, 235, 222));
+    background-image: url(https://images.unsplash.com/photo-1482977036925-e8fcaa643657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+
+
+p{
+    font-family: 'PT Serif', serif;
+    letter-spacing: 2px;
+    color: rgb(39, 37, 37);
+    
+
+}
+
+
+
+
+
+
+
+
+q{
+    font-style: italic;
+    max-width: 45%;
+    margin: 20%;
+    font-size: 160%;
+    background-color: rgba(128, 128, 128, 0.247);
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+a:link{
+    color: rgb(7, 197, 255);
+    text-decoration: none;
+}
+a:visited{
+    display: none;
+    color: blueviolet;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+a:hover{
+    color: rgb(42, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.farmer{
+    border-left: 3px solid rgb(250, 239, 91);
+
+
+}
+
+.villagers{
+    border-left: 3px solid rgb(163, 255, 77);
+
+}
