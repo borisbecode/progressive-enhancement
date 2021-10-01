@@ -45,7 +45,10 @@ p{
 
 
 
-
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -64,29 +67,30 @@ q{
 
 
 
+/* LES LINK */
 
-
-a:link{
+    a:link{
     color: rgb(7, 197, 255);
     text-decoration: none;
-}
-a:visited{
+    }
+
+    a:visited{
     display: none;
     color: blueviolet;
     text-decoration: none;
 
-}
+    }
 
-
-
-
-
-
-a:hover{
+    a:hover{
     color: rgb(42, 255, 255);
     font-weight: bold;
     text-decoration: underline;
-}
+    }   
+
+/* LES LINK */
+
+
+
 
 .farmer{
     border-left: 3px solid rgb(250, 239, 91);
@@ -100,11 +104,13 @@ a:hover{
 }
 
 
+/* LES PETITES IMAGES */
+
 #pouce{
     background-image: url("bien.png");
 	padding-right: 2px;
 	background-repeat: no-repeat;
-	background-position: 28%;
+	background-position: 50%;
 	background-size: 19px;
 
 }
@@ -112,7 +118,7 @@ a:hover{
     background-image: url("mal.png");
 	padding-right: 2px;
 	background-repeat: no-repeat;
-	background-position: 28%;
+	background-position: 50%;
 	background-size: 19px;
 
 }
@@ -120,7 +126,118 @@ a:hover{
     background-image: url("chat.png");
 	padding-right: 2px;
 	background-repeat: no-repeat;
-	background-position: 28%;
+	background-position: 50%;
 	background-size: 19px;
 
 }
+
+
+/* LES PETITES IMAGES */
+
+
+
+
+
+
+
+
+/* LE TABLEAU */
+
+
+
+    caption{
+        caption-side: bottom;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    table{
+        background-color: rgba(243, 191, 155, 0.411);
+  
+        border: 1px solid black ;
+    }
+
+
+    #resume{
+    border: 1px solid black;
+    padding: 10px;
+    }
+
+    .grey{
+    background-color: grey;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+
+    }
+
+    .white{
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px ;
+    padding: 10px;
+
+    }
+
+/* LE TABLEAU */
+
+
+
+.premierediv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deuxiemediv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.espace{
+    margin-left: 30px;
+}
+
+
+.troisiemediv{
+
+    
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#first{
+
+    font-weight: bold;
+}
+
+#conclusion{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+footer{
+
+   text-align: center;
+}
+
