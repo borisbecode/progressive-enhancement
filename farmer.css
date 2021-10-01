@@ -206,7 +206,7 @@ q{
 
 }
 .espace{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 
@@ -217,6 +217,28 @@ q{
     justify-content: space-between;
 
 
+}
+
+.photofarmer{
+    margin-top: 10vh;
+    align-items: center;
+}
+
+#notification{
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 3px solid blue;
+    background-color: coral;
+    padding: 20px;
+}
+
+#notification:hover{
+    background-color: rgb(1, 75, 1);
+    border: 3px solid white;
+    transform: scaleX(110%);
+    padding-top: 30px;
 }
 
 
