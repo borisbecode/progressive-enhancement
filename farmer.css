@@ -8,6 +8,7 @@ body{
     width: 90%;
     margin: auto;
     height: auto;
+    font-family: 'Open Sans', sans-serif;
     
 
     background: -webkit-linear-gradient(180deg, rgb(207, 232, 255), rgb(241, 235, 222));
